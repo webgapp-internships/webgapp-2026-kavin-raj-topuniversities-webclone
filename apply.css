@@ -1,0 +1,32 @@
+img {
+    width: 180px;
+}
+
+nav {
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+.para {
+    padding-left: 200px;
+    padding-top: 100px;
+    font-family: 'Red Hat Display';
+    font-size: x-large;
+    width: 600px;
+    font-weight: bolder;
+    letter-spacing: -0.2px;
+}
+
+.bg {
+    display: flex;
+    align-items: center;
+}
