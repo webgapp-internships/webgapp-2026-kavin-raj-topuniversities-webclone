@@ -26,7 +26,22 @@ div {
     letter-spacing: -0.2px;
 }
 
-.bg {
+.main {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+}
+
+iframe {
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.main {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
 }

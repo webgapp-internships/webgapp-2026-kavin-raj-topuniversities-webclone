@@ -4,105 +4,141 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="form.css" />
     </head>
 
     <body>
-        <h3>Submit your details and we'll help guide your 2026 study abroad plans</h3>
-        <form>
-            <div class="rollno">
-                <label for="rollno">Roll no :</label>
-                <input type="text" id="rollno" name="rollno" />
-            </div>
-            <div class="student">
-                <label>Student name :</label>
-                <input
-                    type="text"
-                    id="firstname"
-                    name="firstname"
-                    placeholder="First Name"
-                />
-                <input
-                    type="text"
-                    id="lastname"
-                    name="lastname"
-                    placeholder="Last Name"
-                />
-            </div>
-            <div class="father">
-                <label for="fathername">Father's name :</label>
-                <input type="text" id="fathername" name="fathername" />
-            </div>
-            <div class="dob">
-                <label for="dateofbirth">Date of birth :</label>
-                <input type="date" id="dateofbirth" name="dateofbirth" />
-            </div>
+        <div class="form-body">
+            <h3>
+                Submit your details and we'll help <br />
+                guide your 2026 study abroad plans
+            </h3>
+            <form>
+                <div class="row1">
+                    <div class="fn">
+                        <label for="firstname">First name<span>*</span></label>
+                        <input type="text" id="firstname" name="firstname" required />
+                    </div>
 
-            <div class="mobile">
-                <label for="mobile">Mobile number :</label>
-                <input type="tel" id="mobile" name="mobile" />
-            </div>
+                    <div class="ln">
+                        <label for="lastname">Last name<span>*</span> </label>
+                        <input type="text" id="lastname" name="lastname" required />
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="email">
+                        <label>Email <span>*</span></label>
+                        <input type="email" id="email" required />
+                    </div>
+                    <div class="country">
+                        <label for="#">Country of residence<span>*</span></label>
+                        <select name="" id="country">
+                            <option value="default" selected>Please Select</option>
+                            <option value="afganistan">Afganistan</option>
+                            <option value="albania">Albania</option>
+                        </select>
+                    </div>
+                </div>
 
-            <div class="email">
-                <label>Email id :</label>
-                <input type="email" id="email" required />
-            </div>
+                <div class="row3">
+                    <div class="coun-code">
+                        <label for="country-code">Country Code<span>*</span></label>
+                        <select name="country-code" id="country">
+                            <option value="default" selected>Please Select</option>
+                            <option value="afganistan">Afganistan</option>
+                            <option value="albania">Albania</option>
+                        </select>
+                    </div>
 
-            <div class="password">
-                <label>Password :</label>
-                <input type="password" id="password" required />
-            </div>
+                    <div class="number">
+                        <label for="mobile">Phone number<span>*</span></label>
+                        <input id="mobile" name="mobile" required />
+                    </div>
+                </div>
 
-            <div class="gender">
-                <label>Gender :</label>
-                <input
-                    type="radio"
-                    id="genderMale"
-                    name="gender"
-                    value="male"
-                />
-                <label for="genderMale">male</label>
-                <input
-                    type="radio"
-                    id="genderFemale"
-                    name="gender"
-                    value="female"
-                />
-                <label for="genderFemale">female</label>
-            </div>
+                <div class="row4">
+                    <div class="destination-interest">
+                        <label for="destination">Study destination of interest<span>*</span></label>
+                        <select name="destination" id="desti">
+                            <option value="default" selected>Please Select</option>
+                            <option value="afganistan">Asia</option>
+                            <option value="albania">Africa</option>
+                        </select>
+                    </div>
 
-            <div class="dept">
-                <label>Department :</label>
-                <input type="checkbox" id="deptCse" name="dept" value="cse" />
-                <label for="deptCse">CSE</label>
-                <input type="checkbox" id="deptIt" name="dept" value="it" />
-                <label for="deptIt">IT</label>
-                <input type="checkbox" id="deptEce" name="dept" value="ece" />
-                <label for="deptEce">ECE</label>
-                <input
-                    type="checkbox"
-                    id="deptCivil"
-                    name="dept"
-                    value="civil"
-                />
-                <label for="deptCivil">Civil</label>
-                <input type="checkbox" id="deptMech" name="dept" value="mech" />
-                <label for="deptMech">Mech</label>
-            </div>
+                    <div class="intake">
+                        <label for="">Intake date<span>*</span></label>
+                        <select name="" id="">
+                            <option value="" selected>Please Select</option>
+                            <option value="">Spring 2026 (Jan - Mar)</option>
+                        </select>
+                    </div>
+                </div>
 
-            <div class="photo">
-                <label for="photo">Student photo :</label>
-                <input type="file" id="photo" name="photo" />
-            </div>
+                <div class="question">
+                    <label for="">Which stage are you in your admission journey<span>*</span></label>
+                    <select name="" id="">
+                        <option value="" selected>Please Select</option>
+                        <option value="">Ready to apply</option>
+                    </select>
+                </div>
 
-            <div class="address">
-                <label for="address">Address :</label>
-                <textarea name="address" id="address"></textarea>
-            </div>
+                <div class="row5">
+                    <div class="study-level">
+                        <label for="">Intended study level<span>*</span></label>
+                        <select name="" id="">
+                            <option value="" selected>Please Select</option>
+                        </select>
+                    </div>
 
-            <div class="submit">
-                <button type="submit" id="submit">Submit</button>
-            </div>
-        </form>
+                    <div class="english-exam">
+                        <label for="">Have you taken an English exam?<span>*</span></label>
+                        <select name="" id="">
+                            <option value="" selected>Please Select</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row6">
+                    <div class="budget">
+                        <label for="">Your yearly tuition budget<span>*</span></label>
+                        <select name="" id="">
+                            <option value="" selected>Please Select</option>
+                        </select>
+                    </div>
+
+                    <div class="fund-source">
+                        <label for="#">Your funding source<span>*</span></label>
+                        <select name="" id="">
+                            <option value="default" selected>Please Select</option>
+                            <option value="governmentoremployer">Government or employer sponsorship</option>
+                            <option value="ownmoney">I have my own money (Self-funded)</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    By submitting this form, you consent to be contacted by our expert counselling team to assist you
+                    with your enrollment journey. Learn more about our <a href="">commitment to quality</a>.
+                </div>
+
+                <div>
+                    <input type="checkbox" />
+                    <label for=""
+                        >I am happy to receive communication and useful resources from QS that are related to my study
+                        preferences and event interests.
+                    </label>
+                    <br />
+                    <input type="checkbox" />
+                    <label for=""
+                        >I am happy to receive messages from third parties including institutions relevant to my study
+                        preferences.
+                    </label>
+                </div>
+                <div class="submit">
+                    <button type="submit" id="book"><a href="" class="btn-anchor">Book Free Consultation</a></button>
+                </div>
+            </form>
+        </div>
     </body>
 </html>
