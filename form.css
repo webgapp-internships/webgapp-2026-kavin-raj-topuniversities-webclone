@@ -29,6 +29,10 @@ h3 {
     font-size: small;
 }
 
+.conditions {
+    font-size: small;
+}
+
 select {
     padding: 10px;
     background-color: rgb(245, 248, 250);
@@ -55,6 +59,6 @@ button {
     color: black;
 }
 
-span{
+span {
     color: red;
 }
