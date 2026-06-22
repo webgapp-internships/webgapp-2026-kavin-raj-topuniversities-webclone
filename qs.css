@@ -103,7 +103,6 @@ button:hover {
 }
 
 .dir {
-
     margin-left: 155px;
     display: flex;
     align-items: center;
@@ -111,13 +110,13 @@ button:hover {
     padding-bottom: 15px;
 }
 
-.dir a {
+.dir-text {
     font-family: 'Inter';
     color: black;
     font-size: medium;
 }
 
-.dir a:hover {
+.dir-text:hover {
     text-decoration: underline;
 }
 
