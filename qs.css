@@ -37,7 +37,7 @@ body {
 
 li {
     display: inline-block;
-    font-family: PP Telegraf;
+    font-family: 'Inter', sans-serif;
 }
 
 li a {
@@ -59,7 +59,7 @@ li a {
 
 
 button {
-    font-family: PP Telegraf;
+    font-family: 'Inter';
     padding: 10px;
     margin-right: 10px;
     border-radius: 17px;
@@ -102,7 +102,7 @@ button:hover {
 }
 
 .dir {
-    font-family: PP Telegraf;
+    font-family: 'Inter';
     margin-left: 155px;
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@ button:hover {
     padding-right: 160px;
     padding-top: 100px;
     padding-bottom: 100px;
-    font-family: PP Telegraf;
+    font-family: 'Inter';
     display: flex;
     justify-content: space-between;
     background-color: rgb(247, 247, 247);
