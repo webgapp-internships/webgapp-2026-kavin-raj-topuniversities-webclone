@@ -149,6 +149,11 @@ button:hover {
     width: 300px;
 }
 
+.yellow {
+    background-color: rgb(255, 204, 0);
+    height: 5px;
+}
+
 .footer {
     padding-left: 160px;
     padding-right: 160px;
@@ -174,7 +179,7 @@ button:hover {
     color: black;
 }
 
-.yellow {
-    background-color: rgb(255, 204, 0);
-    height: 5px;
+.baseright a {
+    color: black;
+    font: 'Inter';
 }
