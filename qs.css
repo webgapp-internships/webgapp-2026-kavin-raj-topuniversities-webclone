@@ -60,7 +60,7 @@ li a {
 
 
 button {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     padding: 10px;
     margin-right: 10px;
     border-radius: 17px;
@@ -111,12 +111,12 @@ button:hover {
 }
 
 .dir-text {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: black;
     font-size: medium;
 }
 
-.dir-text:hover {
+.dir a:hover {
     text-decoration: underline;
 }
 
@@ -125,7 +125,7 @@ button:hover {
     padding-right: 160px;
     padding-top: 100px;
     padding-bottom: 100px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: space-between;
     background-color: rgb(247, 247, 247);
@@ -180,5 +180,5 @@ button:hover {
 
 .baseright a {
     color: black;
-    font: 'Inter';
+    font-family: 'Inter', sans-serif;
 }
