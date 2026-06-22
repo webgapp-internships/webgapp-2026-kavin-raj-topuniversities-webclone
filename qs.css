@@ -139,7 +139,8 @@ button:hover {
     text-decoration: underline;
 }
 
-.paragp {
+.para {
+    font-family: 'Inter', sans-serif;
     margin-bottom: 10px;
 }
 
