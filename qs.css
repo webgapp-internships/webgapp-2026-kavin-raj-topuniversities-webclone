@@ -103,7 +103,7 @@ button:hover {
 }
 
 .dir {
-    font-family: 'Inter';
+
     margin-left: 155px;
     display: flex;
     align-items: center;
@@ -112,6 +112,7 @@ button:hover {
 }
 
 .dir a {
+    font-family: 'Inter';
     color: black;
     font-size: medium;
 }
