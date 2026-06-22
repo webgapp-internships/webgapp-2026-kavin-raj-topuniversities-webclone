@@ -37,11 +37,12 @@ body {
 
 li {
     display: inline-block;
-    font-family: 'Inter', sans-serif;
+
 }
 
 li a {
     margin-right: 10px;
+    font-family: 'Inter', sans-serif;
 }
 
 
